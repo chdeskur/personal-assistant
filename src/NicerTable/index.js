@@ -8,15 +8,15 @@ const NicerTable = () => {
   const [ todoText, setTodoText ] = useState('')
   const [ searchText, setSearchText ] = useState('')
   
-  const handleSubmit = (actionName) => {
+  const handleSubmit = () => {
     if (todoText) {
-      action(actionName,todoText); setTodoText('')
+      action('ADD',todoText); setTodoText('')
     }
   }
 
-  const handleKeyPress = (e, action) => {
+  const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      handleSubmit(action)
+      handleSubmit()
     }
   }
 
@@ -50,8 +50,8 @@ const NicerTable = () => {
         <Text>nothing to Do!</Text>
       }
       <Text>enter Task</Text>
-      <Input value={todoText} onKeyPress={e => handleKeyPress(e, 'ADD')}
-        onChange={e => setTodoText(e.target.value)}/>
+      <Input value={todoText} 
+        onChange={e => setTodoText(e.target.value)} onKeyPress={e => handleKeyPress(e)}/>
       <FancyButton onClick={handleSubmit}>
         [add]
       </FancyButton>
