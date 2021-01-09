@@ -11,10 +11,7 @@ const HomePage = () => {
     setInterval(() => {
       const newD = new Date();
       setTime([newD.getHours() % 12,(`0${newD.getMinutes()}`).slice(-2)])
-    }, 1000)}, []
-  )
-
-  useEffect(() => {
+    }, 1000)
     fetch('http://quotes.rest/qod.json?category=inspire')
     .then(res=> res.json())
     .then(data=>{
@@ -25,8 +22,8 @@ const HomePage = () => {
 
   return (
     <Container>
-      {curTime[0] ? 
-        <Container>
+      {curTime ? 
+        <Text>
           <Text>hello</Text>
           <Text>the time is {curTime[0]}:{curTime[1]}</Text>
           {quote ? 
@@ -35,13 +32,17 @@ const HomePage = () => {
               <br/>
               -{String(author).toLowerCase()}
             </Text> : 
-            <Text>loading daily inspiration...</Text>
+            <Text>
+              "this is what i am."
+              <br/>
+              -edward cullen
+            </Text>
           }
-        </Container> : 
-        <Container>
-          <Text>loading the world...</Text>
-        </Container>
-      }
+        </Text> : 
+        <Text>
+          loading...
+        </Text>
+      } 
     </Container>
   )
 }
