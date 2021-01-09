@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/chdeskur.github.io/static/js/main.95d57616.chunk.js",
-    "main.js.map": "/chdeskur.github.io/static/js/main.95d57616.chunk.js.map",
-    "runtime-main.js": "/chdeskur.github.io/static/js/runtime-main.9ce425c7.js",
-    "runtime-main.js.map": "/chdeskur.github.io/static/js/runtime-main.9ce425c7.js.map",
-    "static/js/2.49086dd8.chunk.js": "/chdeskur.github.io/static/js/2.49086dd8.chunk.js",
-    "static/js/2.49086dd8.chunk.js.map": "/chdeskur.github.io/static/js/2.49086dd8.chunk.js.map",
-    "index.html": "/chdeskur.github.io/index.html",
-    "precache-manifest.4610ca4ceb58a9c984331fd31d6cdf55.js": "/chdeskur.github.io/precache-manifest.4610ca4ceb58a9c984331fd31d6cdf55.js",
-    "service-worker.js": "/chdeskur.github.io/service-worker.js",
-    "static/js/2.49086dd8.chunk.js.LICENSE.txt": "/chdeskur.github.io/static/js/2.49086dd8.chunk.js.LICENSE.txt"
+    "main.js": "/personal-assistant/static/js/main.5601191f.chunk.js",
+    "main.js.map": "/personal-assistant/static/js/main.5601191f.chunk.js.map",
+    "runtime-main.js": "/personal-assistant/static/js/runtime-main.c67efb09.js",
+    "runtime-main.js.map": "/personal-assistant/static/js/runtime-main.c67efb09.js.map",
+    "static/js/2.2a8b7eff.chunk.js": "/personal-assistant/static/js/2.2a8b7eff.chunk.js",
+    "static/js/2.2a8b7eff.chunk.js.map": "/personal-assistant/static/js/2.2a8b7eff.chunk.js.map",
+    "index.html": "/personal-assistant/index.html",
+    "precache-manifest.f7ad22a0dbca0b02ae11f56865eacf48.js": "/personal-assistant/precache-manifest.f7ad22a0dbca0b02ae11f56865eacf48.js",
+    "service-worker.js": "/personal-assistant/service-worker.js",
+    "static/js/2.2a8b7eff.chunk.js.LICENSE.txt": "/personal-assistant/static/js/2.2a8b7eff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ce425c7.js",
-    "static/js/2.49086dd8.chunk.js",
-    "static/js/main.95d57616.chunk.js"
+    "static/js/runtime-main.c67efb09.js",
+    "static/js/2.2a8b7eff.chunk.js",
+    "static/js/main.5601191f.chunk.js"
   ]
 }
