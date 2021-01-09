@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/personal-assistant/static/js/main.5601191f.chunk.js",
-    "main.js.map": "/personal-assistant/static/js/main.5601191f.chunk.js.map",
+    "main.js": "/personal-assistant/static/js/main.8b85392b.chunk.js",
+    "main.js.map": "/personal-assistant/static/js/main.8b85392b.chunk.js.map",
     "runtime-main.js": "/personal-assistant/static/js/runtime-main.c67efb09.js",
     "runtime-main.js.map": "/personal-assistant/static/js/runtime-main.c67efb09.js.map",
     "static/js/2.2a8b7eff.chunk.js": "/personal-assistant/static/js/2.2a8b7eff.chunk.js",
     "static/js/2.2a8b7eff.chunk.js.map": "/personal-assistant/static/js/2.2a8b7eff.chunk.js.map",
     "index.html": "/personal-assistant/index.html",
-    "precache-manifest.f7ad22a0dbca0b02ae11f56865eacf48.js": "/personal-assistant/precache-manifest.f7ad22a0dbca0b02ae11f56865eacf48.js",
+    "precache-manifest.80ee71d97dc0ef7375f0e64a1db8ae42.js": "/personal-assistant/precache-manifest.80ee71d97dc0ef7375f0e64a1db8ae42.js",
     "service-worker.js": "/personal-assistant/service-worker.js",
     "static/js/2.2a8b7eff.chunk.js.LICENSE.txt": "/personal-assistant/static/js/2.2a8b7eff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c67efb09.js",
     "static/js/2.2a8b7eff.chunk.js",
-    "static/js/main.5601191f.chunk.js"
+    "static/js/main.8b85392b.chunk.js"
   ]
 }

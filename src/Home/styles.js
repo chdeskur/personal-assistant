@@ -2,10 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   position: absolute;
-  max-width: 400px;
-  top: 40%;
-  left: 50%;
-  margin: -50px 0 0 -200px;
+  bottom: 50%;
+  left: 20%;
+  right: 20%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,6 +22,7 @@ export const Text = styled.h2`
   color: white;
   text-align: center;
   font: 'Times New Roman';
+  padding: 4px;
   font-size: 20px;
 `
 
