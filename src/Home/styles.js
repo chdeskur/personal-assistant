@@ -8,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 4px;
   background-color: lightblue;
   font-family: 'Times New Roman';
   transition: 0.5s ease;
